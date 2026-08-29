@@ -1,284 +1,256 @@
-# Amazon_PowerBi_Report
+# Amazon PowerBi Report
 
-Amazon E-Commerce Sales Analysis | Power BI
+## Amazon E-Commerce Sales Analysis | Power BI
 
-📊 Project Overview
+### 📊 Project Overview
 
-An interactive Amazon E-Commerce Business Intelligence Report built
-in Microsoft Power BI to analyze sales performance across products,
-categories, sellers, customers, order status, and time.
+An interactive **Amazon E-Commerce Business Intelligence Report** built in Microsoft Power BI to analyze sales performance across products, categories, sellers, customers, order status, and time.
 
-The report transforms transactional sales data into an interactive
-analytical solution that allows users to monitor KPIs, identify sales
-trends, compare performance, and drill down into specific sellers and
-product categories.
+The report transforms transactional sales data into an interactive analytical solution that allows users to monitor KPIs, identify sales trends, compare performance, and drill down into specific sellers and product categories.
 
-🎯 Business Objective
+---
 
-The objective of this project is to analyze Amazon's e-commerce sales
-data and answer key business questions:
+## 🎯 Business Objective
 
-How is overall revenue and order performance changing over time?
+The objective of this project is to analyze Amazon's e-commerce sales data and answer key business questions:
 
-Which product categories contribute the most revenue?
+- How is overall revenue and order performance changing over time?
+- Which product categories contribute the most revenue?
+- Which sellers generate the highest revenue?
+- Which products are driving category performance?
+- How are orders distributed across different statuses?
+- Which customers contribute the most revenue?
+- How does performance vary across different years and months?
+- What insights can be generated at seller and category level?
 
-Which sellers generate the highest revenue?
+---
 
-Which products are driving category performance?
+## 📌 Dashboard Pages
 
-How are orders distributed across different statuses?
+### 1. Home — Sales Overview
 
-Which customers contribute the most revenue?
+The main dashboard provides a high-level view of Amazon's business performance.
 
-How does performance vary across different years and months?
+**Key KPIs**
 
-What insights can be generated at seller and category level?
+- Total Revenue — **$12.64M**
+- Total Orders — **21.63K**
+- Quantity Sold — **42K**
+- Products Sold — **750**
+- Customers — **898**
+- Sellers — **54**
+- Completed Orders — **18K**
+- Average Order Quantity — **1.93**
 
-📌 Dashboard Pages
+**Analysis Included**
 
-1. Home --- Sales Overview
+- Revenue by product category
+- Customer distribution by order status
+- Order-year analysis
+- Seller filtering
+- Revenue performance
+- Order-status analysis
+- Interactive slicers
 
-The main dashboard provides a high-level view of Amazon's business
-performance.
+### 2. Seller's Drill-through
 
-Key KPIs - Total Revenue --- $12.64M - Total Orders ---
-21.63K - Quantity Sold --- 42K - Products Sold --- 750 -
-Customers --- 898 - Sellers --- 54 - Completed Orders ---
-18K - Average Order Quantity --- 1.93
+A dedicated drill-through page allows users to select an individual seller and analyze their performance in detail.
 
-Analysis Included - Revenue by product category - Customer
-distribution by order status - Order-year analysis - Seller filtering -
-Revenue performance - Order-status analysis - Interactive slicers
+**Seller-level KPIs**
 
-2. Seller's Drill-through
+- Seller Origin
+- Seller Name
+- Seller ID
+- Total Revenue
+- Most Expensive Order
+- Products Sold
+- Customers
 
-A dedicated drill-through page allows users to select an individual
-seller and analyze their performance in detail.
+**Seller Analysis**
 
-Seller-level KPIs - Seller Origin - Seller Name - Seller ID - Total
-Revenue - Most Expensive Order - Products Sold - Customers
+- Monthly revenue trends
+- Yearly revenue distribution
+- Year-over-year revenue growth
+- Running revenue contribution
+- Monthly order performance
+- Category-level filtering
+- Customer analysis
 
-Seller Analysis - Monthly revenue trends - Yearly revenue
-distribution - Year-over-year revenue growth - Running revenue
-contribution - Monthly order performance - Category-level filtering -
-Customer analysis
+This allows users to move from **overall business performance → individual seller performance**.
 
-This allows users to move from overall business performance →
-individual seller performance.
+### 3. Category Deep Analysis
 
-3. Category Deep Analysis
+The category drill-through page provides detailed analysis of individual product categories.
 
-The category drill-through page provides detailed analysis of individual
-product categories.
+**Category-level KPIs**
 
-Category-level KPIs - Category ID - Category Name - Order Count -
-Product Type - Total Revenue - Customers
+- Category ID
+- Category Name
+- Order Count
+- Product Type
+- Total Revenue
+- Customers
 
-Category Analysis - Revenue across months - Top 5 products by
-revenue - Revenue by order status - Top 5 customers by revenue -
-Year-level filtering - Category selection - Clear-slicer functionality
+**Category Analysis**
 
-🔍 Key Insights
+- Revenue across months
+- Top 5 products by revenue
+- Revenue by order status
+- Top 5 customers by revenue
+- Year-level filtering
+- Category selection
+- Clear-slicer functionality
+
+---
+
+## 🔍 Key Insights
 
 The report enables analysis of several important business patterns:
 
-Revenue trends and changes across years and months
+- Revenue trends and changes across years and months
+- Differences in revenue contribution across product categories
+- Seller-level revenue and customer performance
+- Top revenue-generating products within categories
+- Distribution of completed, returned, cancelled, and in-progress orders
+- High-value customer contribution
 
-Differences in revenue contribution across product categories
+---
 
-Seller-level revenue and customer performance
+## 🛠️ Tools & Technologies
 
-Top revenue-generating products within categories
+- **Microsoft Power BI**
+- **DAX**
+- **Power Query**
+- **Data Modeling**
+- **Data Visualization**
+- **Business Intelligence**
+- **Interactive Reporting**
 
-Distribution of completed, returned, cancelled, and in-progress
-orders
+---
 
-High-value customer contribution
+## 🧮 DAX & Analytical Techniques
 
-🛠️ Tools & Technologies
-
-Microsoft Power BI
-
-DAX
-
-Power Query
-
-Data Modeling
-
-Data Visualization
-
-Business Intelligence
-
-Interactive Reporting
-
-🧮 DAX & Analytical Techniques
-
-The report uses DAX measures to create dynamic business KPIs and
-analytical calculations.
+The report uses DAX measures to create dynamic business KPIs and analytical calculations.
 
 Techniques used include:
 
-CALCULATE()
+- `CALCULATE()`
+- `SUM()`
+- `SUMX()`
+- `COUNTROWS()`
+- `DISTINCTCOUNT()`
+- `FILTER()`
+- `ALL()`
+- `ALLEXCEPT()`
+- `VALUES()`
+- Time-intelligence calculations
+- Running totals
+- Year-over-year growth
+- Revenue contribution
+- Dynamic KPI calculations
+- Dynamic filter context
 
-SUM()
+---
 
-SUMX()
+## 🏗️ Power BI Features Used
 
-COUNTROWS()
+- Interactive slicers
+- Cross-filtering
+- Drill-through pages
+- Bookmarks
+- Clear-filter functionality
+- Dynamic KPI cards
+- Interactive report navigation
+- Time-based analysis
+- Category and seller analysis
 
-DISTINCTCOUNT()
+---
 
-FILTER()
+## 📷 Dashboard Preview
 
-ALL()
+### 🏠 Home — Sales Overview
 
-ALLEXCEPT()
+![Amazon Sales Dashboard](Ss%20Home%20Page.png)
 
-VALUES()
+### 👤 Seller's Drill-through
 
-Time-intelligence calculations
+![Seller Drill-through](Ss%20Seller's%20Drill%20through.png)
 
-Running totals
+### 📦 Category Deep Analysis
 
-Year-over-year growth
+![Category Deep Analysis](Ss-Category-Deep-Analysis.png)
 
-Revenue contribution
+---
 
-KPI calculations
+## 💡 Business Value
 
-Dynamic filter context
-
-🏗️ Power BI Features Used
-
-Interactive slicers
-
-Cross-filtering
-
-Drill-through pages
-
-Bookmarks
-
-Clear-filter functionality
-
-Dynamic KPI cards
-
-Interactive report navigation
-
-Time-based analysis
-
-Category and seller analysis
-
-📷 Dashboard Preview
-
-Add the following screenshots to the images folder:
-
-images/
-├── home.png
-├── seller-drillthrough.png
-└── category-analysis.png
-
-Then reference them in GitHub using:
-
-![Amazon Sales Dashboard](images/home.png)
-
-![Seller Drill-through](images/seller-drillthrough.png)
-
-![Category Deep Analysis](images/category-analysis.png)
-
-💡 Business Value
-
-This project demonstrates how transactional e-commerce data can be
-converted into an interactive decision-support solution.
+This project demonstrates how transactional e-commerce data can be converted into an interactive decision-support solution.
 
 The report enables users to:
 
-Monitor overall business performance
-
-Identify high-performing categories
-
-Evaluate seller performance
-
-Analyze product contribution
-
-Identify high-value customers
-
-Track revenue trends
-
-Understand order outcomes
-
-Drill down from high-level KPIs to detailed business performance
+- Monitor overall business performance
+- Identify high-performing categories
+- Evaluate seller performance
+- Analyze product contribution
+- Identify high-value customers
+- Track revenue trends
+- Understand order outcomes
+- Drill down from high-level KPIs to detailed business performance
 
 The analytical workflow is:
 
-Raw Data → Analysis → Insights → Business Decisions
+**Raw Data → Analysis → Insights → Business Decisions**
 
-🎓 Skills Demonstrated
+---
 
-Data Analysis
+## 🎓 Skills Demonstrated
 
-KPI development
+### Data Analysis
 
-Trend analysis
+- KPI development
+- Trend analysis
+- Revenue analysis
+- Performance comparison
+- Customer analysis
+- Product analysis
+- Seller analysis
 
-Revenue analysis
+### Power BI
 
-Performance comparison
+- DAX
+- Power Query
+- Data Modeling
+- Interactive dashboards
+- Drill-through
+- Bookmarks
+- Slicers
+- Cross-filtering
+- Dynamic KPIs
 
-Customer analysis
+### Business Intelligence
 
-Product analysis
+- Business problem identification
+- Data-driven analysis
+- Performance monitoring
+- Interactive decision support
+- Insight generation
 
-Seller analysis
+---
 
-Power BI
+## 🚀 Project Outcome
 
-DAX
+The final report provides a multi-level analytical view of Amazon's e-commerce business.
 
-Power Query
+Users can start with the **overall sales dashboard**, identify an area of interest, and then drill into **seller-level or category-level performance** for deeper analysis.
 
-Data Modeling
+**Overall Performance → Identify Driver → Drill Down → Analyze → Generate Insight**
 
-Interactive dashboards
+---
 
-Drill-through
+## 👤 Author
 
-Bookmarks
-
-Slicers
-
-Cross-filtering
-
-Dynamic KPIs
-
-Business Intelligence
-
-Business problem identification
-
-Data-driven analysis
-
-Performance monitoring
-
-Interactive decision support
-
-Insight generation
-
-🚀 Project Outcome
-
-The final report provides a multi-level analytical view of Amazon's
-e-commerce business.
-
-Users can start with the overall sales dashboard, identify an area
-of interest, and then drill into seller-level or category-level
-performance for deeper analysis.
-
-Overall Performance → Identify Driver → Drill Down → Analyze →
-Generate Insight
-
-👤 Author
-
-Chitransh Jain
+### Chitransh Jain
 
 Aspiring Data Analyst | Business Analyst
 
-Skills: SQL | Power BI | DAX | Excel | Python | Data Analysis
-| Business Intelligence
+**Skills:** SQL | Power BI | DAX | Excel | Python | Data Analysis | Business Intelligence
